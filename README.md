@@ -6,4 +6,4 @@ The **Compilation Maker** provides a selection of 10-14 artists for a hypothetic
 
 The app is deployed [here](https://linfri.shinyapps.io/ttri/).
 
-[^1]: Compilation albums were excluded from the dataset.
+[^1]: Compilation albums were excluded from the dataset. Missing values in Creator field were imputed with the help of titles.
