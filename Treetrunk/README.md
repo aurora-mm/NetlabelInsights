@@ -10,7 +10,7 @@ The dashboard displays data on the artists with the highest mean download counts
 
 The **Compilation Maker** generates a list of 10-14 artists for a hypothetical Treetrunk Records compilation, based on historical data and stratified sampling. The compilation would feature artists whose albums have received fewer than 1000 downloads, between 1000 and 10000 downloads, and more than 10000 downloads. This ensures a mix of emerging and established artists from all time periods. Adjusting the Number of Artists slider generates a new compilation suggestion, drawn from Treetrunk Records artist pool.
 
-The app retrieves metadata and download statistics for Treetrunk Records from the Internet Archive. Data is cached locally to improve performance and minimize repeated API calls. Artist name normalization resolves variations in artist naming (e.g., "Thomas Park & Brian Eno" and "Brian Eno & Thomas Park"). Stratified sampling categorizes downloads into "low," "medium" and "high" bands to ensure diverse representation in compilations.
+The app retrieves and processes data from the Internet Archive. Data is cached locally to improve performance and minimize repeated API calls. Artist name normalization resolves variations in artist naming (e.g., "Thomas Park & Brian Eno" and "Brian Eno & Thomas Park").
 
 # Dependencies
 
