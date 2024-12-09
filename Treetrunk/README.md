@@ -1,1 +1,25 @@
-placeholder
+# Netlabel Insights: Treetrunk Records
+
+The Netlabel Insights dashboard for [Treetrunk Records](https://archive.org/details/treetrunk) provides an overview of download data from [the Internet Archive](https://archive.org) across three historical periods. It allows users to explore the distribution of artist downloads and generate a hypothetical compilation using [stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling).
+
+![](screenshot.png?raw=true)
+
+# Features
+
+The dashboard displays data on the artists with the highest mean download counts over specific time periods in the label’s history. It also shows the distribution of download counts for albums during these periods, as well as the trend in download counts with each subsequent album release.
+
+The **Compilation Maker** generates a list of 10-14 artists for a hypothetical Treetrunk Records compilation, based on historical data and stratified sampling. The compilation would feature artists whose albums have received fewer than 1000 downloads, between 1000 and 10000 downloads, and more than 10000 downloads. This ensures a mix of emerging and established artists from all time periods. Adjusting the Number of Artists slider generates a new compilation suggestion, drawn from Treetrunk Records artist pool.
+
+The app retrieves metadata and download statistics for Treetrunk Records from the Internet Archive. Data is cached locally to improve performance and minimize repeated API calls. Artist name normalization resolves variations in artist naming (e.g., "Thomas Park & Brian Eno" and "Brian Eno & Thomas Park"). Stratified sampling categorizes downloads into "low," "medium" and "high" bands to ensure diverse representation in compilations.
+
+# Dependencies
+
+`shinythemes`, `tidyverse`, `cowplot`, `internetarchive`
+
+# Installation
+
+To run the app directly from GitHub, run `shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Treetrunk/")` from your [R](https://www.r-project.org) environment.
+
+# Author
+
+Linn Friberg
