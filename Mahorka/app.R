@@ -31,7 +31,7 @@ ui <- fluidPage(
       width = 9,
       tabsetPanel(
         tabPanel("Period 1 (2004-2008)", plotOutput("plot_period1", height = "500px")),
-        tabPanel("Period 2 (2010-2015)", plotOutput("plot_period2", height = "500px")),
+        tabPanel("Period 2 (2010-2016)", plotOutput("plot_period2", height = "500px")),
         tabPanel("Period 3 (2016-Present)", plotOutput("plot_period3", height = "500px")),
         tabPanel("Compilation Maker", tableOutput("compilation"))
       )
