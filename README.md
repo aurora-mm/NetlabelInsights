@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a set of four interactive [R Shiny](https://shiny.posit.co) dashboards designed to explore and visualize download data from various netlabels hosted on [the Internet Archive](https://archive.org). Each dashboard provides insights into historical download patterns, artist distributions, and trends specific to a given netlabel. The dashboards also enable users to generate hypothetical compilations based on [stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling) of the data.
+This repository contains a set of four interactive [R Shiny](https://shiny.posit.co) dashboards designed to explore and visualize download data from various [netlabels](https://en.wikipedia.org/wiki/Netlabel) hosted on [the Internet Archive](https://archive.org). Each dashboard provides insights into historical download patterns, artist distributions, and trends specific to a given netlabel. The dashboards also enable users to generate hypothetical compilations based on [stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling) of the data.
 
 # Available Dashboards
 
