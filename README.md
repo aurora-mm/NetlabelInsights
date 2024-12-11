@@ -24,7 +24,7 @@ This repository contains a set of four interactive [R Shiny](https://shiny.posit
 # Installation
 To run any of the apps directly from GitHub, use the following command in your R environment:
 
-`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Mahorka/")  # Replace with the folder name`
+`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Mahorka/")  # Use the folder name`
 
 # Author
 
