@@ -14,6 +14,7 @@ ui <- fluidPage(
   fluidRow(
     column(
       width = 3,
+      tags$style(HTML(".js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {background: grey}")),
       sliderInput("num_artists",
         "Number of Artists:",
         min = 10,
