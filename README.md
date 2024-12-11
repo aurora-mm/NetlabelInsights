@@ -25,15 +25,15 @@ Each dashboard focuses on a specific netlabel and offers insights into the corre
 
 # Installation
 
-To run any of the apps directly from GitHub, use the following command in your [R](https://www.r-project.org) environment:
+To run any of the apps directly from GitHub, use the following commands in your [R](https://www.r-project.org) environment:
 
-`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "EnoughRecords/")  # For the Enough Records dashboard`
+`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "EnoughRecords/")`
 
-`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Entity/")  # For the Entity dashboard`
+`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Entity/")`
 
-`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Mahorka/")  # For the Mahorka dashboard`
+`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "Mahorka/")`
 
-`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "TreetrunkRecords/")  # For the Treetrunk Records dashboard`
+`shiny::runGitHub("NetlabelInsights", "aurora-mm", subdir = "TreetrunkRecords/")`
 
 # Author
 
